@@ -1,0 +1,54 @@
+body {
+    background-image: url('MEBuilding.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.stroked-text {
+    text-shadow:
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;
+}
+
+.adventure-path a {
+    color: #FFFFFF;
+    text-shadow: 6px 6px 8px black, 0 0 1em black;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.adventure-path a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.adventure-path a:visited {
+    color: #FFFFFF;
+}
+
+body.freshman-journey {
+    background-image: url('JuniorDorm.jpg');
+    text-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+a.back-to-home {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a.back-to-home:hover {
+    background-color: #555;
+}
